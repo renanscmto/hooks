@@ -72,4 +72,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Started with React Hooks
 
+* O número de vezes que um hook é executado nunca pode mudar.
+* Ex: Inserir um hook dentro de uma função, condição ou loop.
+
 ### `useState`
+import { useState } from "react"
+const [count, setCount] = useState(0)
+
+
+### `useEffect`
