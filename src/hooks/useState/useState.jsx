@@ -1,5 +1,4 @@
-import hookUseState from '../hooks/useState/useState';
-
+import hookUseState from "./hooks/useState/useState";
 function App() {
   return (
     <div>
