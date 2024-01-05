@@ -28,7 +28,7 @@ export default function UseEffect() {
             </div>
 
             {itemsResourceType.map((item) => {
-                return <pre>{JSON.stringify(item.id)}</pre>
+                return <pre key={item.id}>{JSON.stringify(item.id)}</pre>
             })}
         </div>
     )
