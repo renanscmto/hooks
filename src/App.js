@@ -1,7 +1,7 @@
 import State from "./components/useState";
 import Effect from "./components/useEffect";
 
-function App() {
+export default function App() {
   return (
     <div>
       <State />
@@ -11,4 +11,3 @@ function App() {
   );
 }
 
-export default App;
