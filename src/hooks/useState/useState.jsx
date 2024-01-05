@@ -1,8 +1,9 @@
-import hookUseState from "./hooks/useState/useState";
 function App() {
   return (
     <div>
-      <hookUseState />
+      <h1>
+        Use State
+      </h1>
     </div>
   );
 }
