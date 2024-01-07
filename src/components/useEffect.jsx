@@ -20,7 +20,8 @@ export default function UseEffect() {
     }
     return (
         <div>
-            <h1>{resourceType}</h1>
+            <h1>useEffect</h1>
+            <h2>{resourceType}</h2>
             <div>
                 <button onClick={() => changeResourceType("posts")}>Posts</button>
                 <button onClick={() => changeResourceType("comments")}>Comments</button>
