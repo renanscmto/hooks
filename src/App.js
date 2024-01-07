@@ -1,5 +1,6 @@
 import State from "./components/useState";
 import Effect from "./components/useEffect";
+import Ref from "./components/useRef";
 
 export default function App() {
   return (
@@ -7,6 +8,8 @@ export default function App() {
       <State />
       <hr />
       <Effect />
+      <hr />
+      <Ref />
     </div>
   );
 }
